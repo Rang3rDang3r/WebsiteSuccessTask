@@ -252,12 +252,23 @@ button {
 
 /* ---------------------------------------------- Testimonial */
 
-.testimonial-slider {
+.carousel-container {
+    background-color: #f3f7f6;
+}
+
+.glyphicon-chevron-left {
+    color:  #39759f;
+    padding-right: -25px;
+}
+
+.glyphicon-chevron-right {
+    color: #39759f;
 }
 
 .testimonial-container {
-    padding-top: 100px;
-    background-color: grey;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #f3f7f6;
 }
 
 .testimonial-top-image {
@@ -275,18 +286,24 @@ button {
 .testimonial-text-container h2 {
     padding-bottom: 20px;
     margin-right: 120px;
+    color: #e35c23;
 }
 
 .testimonial-content {
     padding-top: 10px;
     margin-right: 100px;
-    color: #fff;
+    color: #c9d5df;
 }
 
-.testimonial-content i {
+.testimonial-name {
+    color: #c9d5df;
+}
+
+.testimonial-text-container i {
     color: #661c0d;
     size: 20px;
 }
+
 
 /* ---------------------------------------------- Footer */
 

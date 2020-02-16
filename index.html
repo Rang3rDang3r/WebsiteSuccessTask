@@ -32,7 +32,6 @@
             </div>
         </div>
     </header>
-
     <!--- View and Signup --->
     <section>
         <div class="container-fluid">
@@ -57,7 +56,6 @@
             </div>
         </div>
     </section>
-
     <!--- Guarantees --->  
     <section>
         <div class="container-fluid">
@@ -79,7 +77,6 @@
             </div>
         </div>
     </section>
-
     <!--- Procedure --->
     <section>
         <div class="container-fluid">
@@ -115,47 +112,60 @@
             </div>
         </div>
     </section>
-
     <!--- Testimonials --->
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="testimonial-slider">
-                    <div class="testimonial-container col-xs-12">
-                        <img class="testimonial-top-image col-xs-6" src="assets/images/cruiseliner-image.jpg" alt="cruiseliner image"></div>
-                        <div class="testimonial-text-container col-xs-6">
-                            <h2><strong>Lorem Ipsum Dolor</strong></h2>
-                            <p class="testimonial-content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores</p> 
-                            <p class="testimonial-name">Lorem Ipsum</p>  
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>                    
+                <div class="carousel-container">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>                            
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="testimonial-section">
+                                    <div class="testimonial-container col-xs-12">
+                                        <img class="testimonial-top-image col-xs-6" src="assets/images/cruiseliner-image.jpg" alt="cruiseliner image">
+                                    </div>
+                                    <div class="testimonial-text-container col-xs-6">
+                                        <h2><strong>Lorem Ipsum Dolor</strong></h2>
+                                        <p class="testimonial-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores</p> 
+                                        <p class="testimonial-name"><strong>Lorem Ipsum</strong></p>  
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-section">
+                                    <div class="testimonial-container col-xs-12">
+                                        <img class="testimonial-top-image col-xs-6" src="assets/images/cruiseliner-image3.jpg" alt="cruiseliner image">
+                                    </div>
+                                    <div class="testimonial-text-container col-xs-6">
+                                        <h2><strong>Lorem Ipsum Dolor</strong></h2>
+                                        <p class="testimonial-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores</p> 
+                                        <p class="testimonial-name"><strong>Lorem Ipsum</strong></p>  
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>                    
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="testimonial-container col-xs-12">
-                        <img class="testimonial-top-image col-xs-6" src="assets/images/cruiseliner-image.jpg" alt="cruiseliner image"></div>
-                        <div class="testimonial-text-container col-xs-6">
-                            <h2><strong>Lorem Ipsum Dolor</strong></h2>
-                            <p class="testimonial-content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores</p> 
-                            <p class="testimonial-name"></p>  
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>                    
-                        </div>
-                    </div>
-                    <div class="testimonial-container col-xs-12">
-                        <img class="testimonial-top-image col-xs-6" src="assets/images/cruiseliner-image.jpg" alt="cruiseliner image"></div>
-                        <div class="testimonial-text-container col-xs-6">
-                            <h2><strong>Lorem Ipsum Dolor</strong></h2>
-                            <p class="testimonial-content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente asperiores</p> 
-                            <p class="testimonial-name"></p>  
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>                    
-                        </div>
+                
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!--- Footer --->
     <footer>
         <div class="container-fluid">
@@ -176,7 +186,4 @@
     </footer>
 
 </body>
-    <!--- Links to JQuery and JavaScript --->
-    <script type="text/javascript" src="assets/scripts/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="assets/scripts/main.js"></script>
 </html>
