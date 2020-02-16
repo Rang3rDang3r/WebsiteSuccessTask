@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 html, body {
     overflow-x: hidden;
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -252,13 +253,12 @@ button {
 
 /* ---------------------------------------------- Testimonial */
 
-.carousel-container {
+#myCarousel {
     background-color: #f3f7f6;
 }
 
 .glyphicon-chevron-left {
     color:  #39759f;
-    padding-right: -25px;
 }
 
 .glyphicon-chevron-right {
