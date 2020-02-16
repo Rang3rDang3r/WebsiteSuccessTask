@@ -122,6 +122,53 @@ button {
     padding-top: 5px;
 }
 
+/* ---------------------------------------------- Guarantees */
+
+.guarantee-image-wrapper {
+    background-image: url(../images/cruiseliner-image3.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -55px;
+    z-index: -1;
+}
+
+.guarantee-container {
+    padding-top: 100px;
+}
+
+.guarantee-top-image {
+    max-height: 250px;
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.guarantee-text-container {
+    color: #fff;
+    float: right;
+    margin-top: -270px;
+}
+
+.guarantee-text-container h2 {
+    border-bottom: dotted 2px #661c0d;
+    padding-bottom: 20px;
+    margin-right: 120px;
+}
+
+.guarantee-content {
+    padding-top: 10px;
+    margin-right: 100px;
+    color: #fff;
+}
+
+.guarantee-content i {
+    color: #661c0d;
+    size: 20px;
+}
+
 /* ---------------------------------------------- Footer */
 
 .footer-container {
